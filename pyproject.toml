@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "producertest"
+version = "0.1.0"
+description = ""
+authors = ["Arkadius Schuchhardt <arkadius@schuchhardt.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+confluent-kafka = "^2.3.0"
+requests = "^2.31.0"
+fastavro = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
